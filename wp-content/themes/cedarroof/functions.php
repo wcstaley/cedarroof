@@ -1,4 +1,12 @@
 <?php
+register_nav_menus( 
+	array(
+		'main_header' => 'Main Navigation',
+		'utility_nav' => 'Utility Navigation',
+		'footer_nav' => 'Footer Navigation'
+	)
+);
+
 function debug($data){
 	echo "<pre>";
 	print_r($data);

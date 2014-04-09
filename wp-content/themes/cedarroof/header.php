@@ -18,4 +18,7 @@
 	<script src="<?php echo get_template_directory_uri(); ?>/js/html5.js"></script>
 	<![endif]-->
 	<?php wp_head(); ?>
+	
+	<link rel="stylesheet" href="<?php echo bloginfo('template_url'); ?>/css/reset.css" type="text/css" media="all" title="" charset="utf-8">
+	<link rel="stylesheet" href="<?php echo bloginfo('template_url'); ?>/style.css" type="text/css" media="screen" title="" charset="utf-8">
 </head>
